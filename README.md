@@ -2,17 +2,17 @@
 
 In this module project you will build your very own calculator app. You have been provided with a file structure and suggested pattern for constructing your components. Be sure to connect all necessary files and pass the data using the techniques from the module.
 
-## Instructions
+ ## Instructions X
 
 ---
 
 Read these instructions carefully. Understand exactly what is expected before starting this project.
 
-## Commits
+## Commits X
 
 Commit your code regularly and meaningfully. This helps both you and your team lead in case you ever need to return to old code for any number of reasons.
 
-## Description
+## Description X
 
 In this project you will build out a calculator using React. You have been given a design file to follow, and a data file to include for your button components to display.
 
@@ -22,12 +22,12 @@ In this project you will build out a calculator using React. You have been given
 
 This project was put together using create-react-app (CRA). You will not need to install CRA in order to make this project work. Follow the steps below to setup the project with the proper dependencies.
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd lambda-calculator`
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [X] Create a forked copy of this project.
+- [X] Add your team lead as collaborator on Github.
+- [X] Clone your OWN version of the repository in your terminal
+- [X] CD into the project base directory `cd lambda-calculator`
+- [X] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [X] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
@@ -56,7 +56,8 @@ Using the design file, build out your User Interface. Before you start, look thr
 
 - You have been given a Data.js file that contains some arrays.
 - Find a way to bring (import) the data into the necessary files, but do not change the data.
-- Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
+- Data should be imported into the wrapper components (`Numbers.js`, `Operators.js`, and `Specials.js`)
+## Please specifiy which component files. Makes no sense.
 
 **Step 2**
 Add the data to state like this:
@@ -72,6 +73,7 @@ const [numberState, setNumberState] = useState(numbers);
 
 **Step 3**
 
+### This could use some more explaining, it completely ignores the fact that you have to finish the button component, this is the second project in react
 - Map over the data and dynamically render components for each piece of data in the arrays.
 - You will need to import the component that you'll render in the map function.
 
