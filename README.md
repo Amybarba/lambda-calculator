@@ -28,7 +28,7 @@ This project was put together using create-react-app (CRA). You will not need to
 - [X] CD into the project base directory `cd lambda-calculator`
 - [X] Download project dependencies by running one of these two commands `yarn` or `npm install`
 - [X] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
@@ -48,15 +48,15 @@ Follow these steps for completing your project.
 - The design file should be followed as close as possible but doesn't have to be pixel perfect - budget your time wisely.
 - The client will provide their own proprietary calculator software so your app only needs basic functionality, enough for a demo.
 
-## Directions
+X ## Directions
 
 Using the design file, build out your User Interface. Before you start, look through the app structure to see what components you have to work with, then you'll start by following the steps below.
 
-**STEP 1**
+**STEP 1** X
 
-- You have been given a Data.js file that contains some arrays.
-- Find a way to bring (import) the data into the necessary files, but do not change the data.
-- Data should be imported into the wrapper components (`Numbers.js`, `Operators.js`, and `Specials.js`)
+X - You have been given a Data.js file that contains some arrays.
+A - Find a way to bring (import) the data into the necessary files, but do not change the data.
+B - Data should be imported into the wrapper components (`Numbers.js`, `Operators.js`, and `Specials.js`)
 ## Please specifiy which component files. Makes no sense.
 
 **Step 2**
@@ -82,7 +82,7 @@ const [numberState, setNumberState] = useState(numbers);
 - Import the wrapper button components into `App.js`
 - Import the display components into `App.js` as well
 - Compose all the components inside the `App` component to get your calculator rendering on the DOM
-- In each component, start designing things to match the design file
+-> In each component, start designing things to match the design file
 - Style your project using any of the techniques from the module
 - Don't forget about className vs class on your JSX elements!!
 
