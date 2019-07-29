@@ -10,3 +10,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.button {
+width: 60px;
+height: 60px;
+border-radius: 30px;
+box-shadow: 0px 3px 0px #2d2d2d;
+display: inline-block;
+font-weight: bold;
+}
+
+.container {
+  width: 320px;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 60px auto;
+}
+
+div.specialsNumber {
+display: flex;
+align-items: flex-start;
+  height: 100%;
+  width: 350px;
+}
+
+div.numbersCircle {
+  display: flex;
+align-items: flex-start;
+flex-wrap: wrap;
+  height: 150px;
+  width:200px;
+}
+
+
+
+
+.App {
+  display: flex;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.display {
+  width: 320px;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+/* .numbers button:nth-child(10) {
+  width: 140px;
+} */

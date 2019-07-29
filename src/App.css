@@ -1,0 +1,49 @@
+.container {
+  /* display: flex;
+  flex-wrap: wrap; */
+  background-color: yellowgreen;
+  border-radius: 20px;
+  height: 575px;
+  width: 300px;
+  padding: 10px;
+}
+
+.display-container {
+  height: 80px;
+  border-radius: 50px;
+  margin: 5px 15px 15px 5px;
+  padding: 10px 15px 30px 10px;
+}
+
+.specialsNumber {
+  width: 250px;
+  margin: 5px 5px 5px 0px;
+  padding: 5px 5px 5px 0px;
+}
+
+.operatorsCircle {
+  width: 400px;
+  margin: 5px 5px 5px 0px;
+  padding: 5px 5px 5px 0px;
+}
+
+.numbersCircle {
+  width: 240px;
+  margin: 5px 5px 5px 0px;
+  padding: 5px 5px 5px 0px;
+}
+
+/* .numberZero {
+  width: 300px;
+  margin: 5px 5px 5px 0px;
+  padding: 5px 5px 5px 0px; 
+}*/
+
+
+.logo {
+  background-color: purple;
+  border-radius: 15%;
+  margin: 5px 20px 20px 5px;
+  padding: 10px 10px 10px 10px;
+  border: blue solid;
+}

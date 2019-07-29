@@ -7,13 +7,21 @@ import { SpecialButton } from "./SpecialButton";
 import { specials } from "../../../data";
 
 // STEP 2 - add the imported data to state
-export const Specials = () => {
-  const [specialsState, setspecialsState] = useState(specials);
+export const Specials = props => {
+  const [specialsState] = useState(specials);
 
   return (
     <div>
       {specialsState.map(special => {
-        return <SpecialButton special={special} />;
+        return (
+          <SpecialButton
+            special={special}
+            addToEquation={props.addToEquation}
+            setValues={props.setValues}
+            setResult={props.setResult}
+            values={props.values}
+          />
+        );
       })}
 
       {/* STEP 3 - Use .map() to iterate over your array data and return a button

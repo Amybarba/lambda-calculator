@@ -1,0 +1,11 @@
+.operatorButton {
+  margin: 5px 5px 5px 0px;
+  padding: 5px 5px 5px 0px;
+  border-radius: 50%;
+  background-color: yellow;
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+  border: blue solid;
+  width: 65px;
+}

@@ -1,0 +1,21 @@
+.numberButton {
+  border-radius: 50%;
+  width: 65px;
+  margin: 5px 5px 5px 0px;
+  padding: 5px 5px 5px 0px;
+  background-color: purple;
+  color: yellowgreen;
+  border: yellow solid;
+  font-size: 30px;
+}
+
+/* .numberZero {
+  border-radius: 50%;
+  width: 105px;
+  margin: 5px 5px 5px 0px;
+  padding: 5px 5px 5px 0px;
+  background-color: purple;
+  color: yellowgreen;
+  border: yellow solid;
+  font-size: 30px;
+} */
