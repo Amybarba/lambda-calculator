@@ -6,10 +6,12 @@ import { SpecialButton } from "./SpecialButton";
 //Import your array data to from the provided data file
 import { specials } from "../../../data";
 
+//Why does this one not need { value} and uses props instead
 // STEP 2 - add the imported data to state
 export const Specials = props => {
   const [specialsState] = useState(specials);
 
+  //why do we put the div in? why is "special" not props.special?
   return (
     <div>
       {specialsState.map(special => {
